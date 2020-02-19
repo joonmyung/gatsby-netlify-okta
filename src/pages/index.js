@@ -1,3 +1,10 @@
-import React from "react"
+import { Link } from 'gatsby'
+import React from 'react'
 
-export default () => <div>Hello world!</div>
+export default () => {
+  return (
+    <>
+      Hello world!
+      <p><Link to="/blog">View Blog</Link></p>
+    </>)
+}
